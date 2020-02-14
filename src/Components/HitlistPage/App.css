@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Merriweather|Lato&display=swap');
 
 :root {
-    --content-backgroundGrayColor: #424242;
+    --content-backgroundGrayColor: #bdbdbd;
     --content-mainThemeBlueColor: #283593;
     --content-mainThemeDarkBlueColor: #001064;
     --content-lightBlueColor: #c5cae9;
@@ -36,14 +36,6 @@ body {
     min-width: 1000px;
 }
 
-/*#titleBar {
-    margin: 0 3% 0 3%;
-    padding: 5px;
-    color: var(--content-mainThemeBlueColor);
-    background: var(--content-lightBlueColor);
-    border-radius: 25px;
-}*/
-
 #ISCITitle {
     font-family: 'Exo', sans-serif;
     font-weight: 800;
@@ -53,33 +45,17 @@ body {
     background-color: white;
 }
 
-/*#navigationBar {
-    text-align: center;
-    margin: 0 0 0.5em 0;
-}
-#navigationBar li {
-    display: inline;
-    font-size: 1.5em;
-}
-a:link, a:visited {
-    color: var(--content-mainThemeDarkBlueColor);
-    text-align: center;
-    text-decoration: none;
-    margin: 0 .8em;
-    padding: .2em 2em;
-    display: inline;
-}
-a:hover, a:active {
-    background-color: var(--content-whiteColor);
-    border-radius: 0.5em;
-}*/
-
 #mainBody {
     background-color: var(--content-mainThemeBlueColor);
     margin: 0 5% 0 5%;
     padding: 1em 5% .8em 5%;
     color: var(--content-whiteColor);
 }
+
+#navBar a {
+    font-size: 19px;
+}
+
 #inputSpacer {
     margin: 1.2em 0;
 }
@@ -108,23 +84,6 @@ input[type="file"] {
 #inputLabel span {
     margin: 0 1em;
 }
-
-/*button {
-    border: none;
-    background: var(--content-whiteColor);
-    color: var(--content-mainThemeBlueColor);
-    font-size: 1em;
-    font-weight: bold;
-    margin: 1em 0;
-    padding: .5em 1em;
-    border-radius: .5em;
-    outline:none;
-}
-
-button:hover {
-    background: var(--content-mainThemeDarkBlueColor);
-    color: var(--content-whiteColor);
-}*/
 
 #progress {
     display: inline;
@@ -212,12 +171,7 @@ button:hover {
     color: var(--content-blackColor);
 }
 
-#plotlyMargin {
-    /*margin: 50px 0 0 0;*/
-}
-
 .exitResultItem {
-    /*position: static;*/
     color: var(--content-whiteColor);
     font-weight: 800;
     margin: -1em 5% 0 94%;
@@ -258,7 +212,6 @@ a .exit:active {
 .title > .exit:hover {
     color: var(--content-blackColor);
     background-color: var(--content-oddBlueLight);
-
 }
 
 .title {
