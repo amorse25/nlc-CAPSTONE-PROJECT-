@@ -9,8 +9,8 @@ This application is designed to be used as a tool to help identify unknown compo
 The intent is to upload known chemical compounds, or spectra, alongside an unkown spectra. The user then selects the unkown spectra to be the query, which the system then will compare that spectra against all other uploaded spectra. A hitlist, or results, will then be displayed, ranking the known spectra's similarities to the unknown spectra chosen as the query. A graphical representation can be chosen to see how the wavelengths are matched up, or to better visualize how the system came to determine its rank. However, in this version, the graphical representation does not reflect any changes made by the NLC since it has been removed. The two graphs that the user can view: First graph represents two spectra in their original form, where the second graph would normally be the form after applying NLC, however, the second graph in this version also displays the two spectra in their original form. 
 
 
-*Framework: React
-*Modules: JavaScript
-*Graphing Library: plotly.js
-*Navigation: React-Router
-*Bootstrap: Navigation | Buttons
+* Framework: React
+* Modules: JavaScript
+* Graphing Library: plotly.js
+* Navigation: React-Router
+* Bootstrap: Navigation | Buttons
