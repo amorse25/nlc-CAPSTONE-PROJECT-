@@ -23,7 +23,7 @@ class Navigation extends Component {
 							width="50"
 							height="50"
 							className="d-inline-block align-top"
-							alt="Spectra Logo"
+							alt="Logo"
 						/>
 						</Navbar.Brand>
 
